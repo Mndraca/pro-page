@@ -4,9 +4,21 @@ html{
 }
     
 body{
-    margin: 0;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 5%;
     padding: 0;
     overflow-x: hidden;
+
+}
+.blog{
+    font-family: sans-serif;
+    font-size: 44px;
+    font-weight: 700;
+    line-height: 60px;
+    letter-spacing: 0px;
+    text-align: left;
+    margin-left: 0;
 
 }
 
@@ -29,3 +41,147 @@ nav {
 div.works, div.Blog, div.contact {
     padding: 2%;
 }
+.dash2{
+    display: flex;
+    flex-direction: row;
+}
+.left4{
+    font-family: sans-serif;
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 44px;
+    letter-spacing: 0px;
+    text-align: left;
+    width: 95%;
+    height: auto;
+    color: #21243D;
+    margin-left: 0;
+    padding-top: 5%;
+    margin-top: 0%;
+    margin-bottom: 3%;
+
+
+}
+.left5{
+    width: 374px;
+    height: auto;
+    font-family: sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #21243D;
+    margin-left: 0;
+    margin-top: 0%;
+    margin-bottom: 0%;
+
+}
+.left6{
+    width: 90%;
+    height: auto;
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #21243D;
+    margin-left: 0;
+    margin-top: 3%;
+    margin-bottom: 5%;
+
+}
+h1, h2 {
+    font-family: sans-serif;
+    font-size: 44px;
+    font-weight: 700;
+    line-height: 60px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #21243D;
+    margin-left: 18%;
+    }
+    p{
+        width: 497px;
+        height: 66px;
+        top: 373px;
+        left: 148px;
+        font-family: sans-serif;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 0px;
+        text-align: left;
+        color: #21243D;
+        margin-left: 18%;
+    
+    
+    
+    }
+    #red {
+        color:#FF6464;
+
+    }
+    #grey{
+        color: #8695A4;
+
+    }
+    .icons{
+        margin-left: 43%;
+        margin-top: 10%;
+    }
+    p.footer{
+        margin-left: 43%;
+    }
+    .fa-brands{
+        padding-right: 3%;
+    
+    }
+    hr{
+        color: #E0E0E0;
+    }
+    p.footer {
+        margin-left: 32%;
+    }
+    .noshow{
+        display: none;
+    }
+    @media only screen and (max-width: 600px) {
+   
+        html, body {
+            overflow-x: hidden;
+            margin: 0%;
+            padding: 0%;
+          }
+          body {
+            margin-left: 7%;
+            
+          }
+          nav{
+            display: none;
+          }
+          .noshow{
+            display:flex;
+            margin-left: 80%;
+            margin-top: 13%;
+        }
+        .left4{
+            font-size: 26px;
+        }
+        hr{
+            color: #E0E0E0;
+            width: 330px;
+            margin-left: 0;
+        }
+        .left5{
+            font-size: 17px;
+        }
+        .icons{
+            margin-left: 30%;
+        }
+        p.footer {
+            margin-left: 11%;
+        }
+        }
+    
