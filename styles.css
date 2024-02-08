@@ -455,7 +455,16 @@ button{
        
     }
     p.footer {
-        margin-left: 10%;
+        margin-left: 6%;
+    }
+    .fa-solid, .fas {
+        font-weight: 900;
+        margin-left: 70%;
+        position: absolute;
+    }
+    .noshow {
+        
+        margin-top: 10%;
     }
     
 }
