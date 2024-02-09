@@ -326,6 +326,20 @@ p.footer{
 .blue1{
     display: flex;
 }
+#grey{
+    color: #8695A4;
+    padding-left: 5%;
+
+}
+#year{
+    background-color: black;
+    color: white;
+    border-radius: 15px 15px 15px 15px;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-left: 2%;
+    padding-right: 2%;
+}
 @media only screen and (max-width: 600px) {
    
     html, body {
